@@ -1,0 +1,5 @@
+#!/usr/bin/with-contenv sh
+
+crontab /app/config/crontab.txt
+
+exec crond -f;
